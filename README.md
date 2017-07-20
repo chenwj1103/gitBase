@@ -83,12 +83,31 @@
     强制删除指定分支
     git branch -m <branch>
     将当前分支命名为 <branch>
+    git checkout -b <new-branch> <existing-branch>
+    创建一个新的分支，将 <existing-branch> 作为新分支的基，而不是当前分支。
 
+    18.解释git命令
+    git add files 将工作目录的文件加入到stage缓存；commit命令把缓存中的修改生成一个commit，加入到commit历史中
+    git reset 撤销所有的缓存文件，也可以git reset --files 撤销某一个；
+    git checkout -- files 把文件从 stage 缓存复制到工作目录，用来丢弃本地修改
 
+    19. git diff --cached
+        git diff
+        git diff HEAD
+        git diff maint
+        查看分支之间的不同
 
+    20.图解 git命令
+    https://github.com/geeeeeeeeek/git-recipes/wiki/4.1-%E5%9B%BE%E8%A7%A3-Git-%E5%91%BD%E4%BB%A4
 
+    21.代码合并：Merge、Rebase 的选择
+    https://github.com/geeeeeeeeek/git-recipes/wiki/5.1-%E4%BB%A3%E7%A0%81%E5%90%88%E5%B9%B6%EF%BC%9AMerge%E3%80%81Rebase-%E7%9A%84%E9%80%89%E6%8B%A9
 
+    22.代码回滚：Reset、Checkout、Revert 的选择
+    https://github.com/geeeeeeeeek/git-recipes/wiki/5.2-%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%BB%9A%EF%BC%9AReset%E3%80%81Checkout%E3%80%81Revert-%E7%9A%84%E9%80%89%E6%8B%A9
 
+    23 .常见工作流比较
+    https://github.com/geeeeeeeeek/git-recipes/wiki/3.5-%E5%B8%B8%E8%A7%81%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%AF%94%E8%BE%83
 
 
     ```
