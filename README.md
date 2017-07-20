@@ -67,7 +67,22 @@
    14. git remote
         列出你和其他仓库之间的远程连接。
 
-   15.
+   15.git pull
+     = git fetch +git merge
+
+   16.git config --global pull.rebase true
+   设置之后 git pull的命令将使用rebase而不是merge
+
+   17.git branch
+    列出仓库中所有分支
+    git branch -r
+    列出远端所有分支
+    git branch -d <branch>
+    删除指定分支。这是一个安全的操作，Git 会阻止你删除包含未合并更改的分支。
+    git branch -D <branch>
+    强制删除指定分支
+    git branch -m <branch>
+    将当前分支命名为 <branch>
 
 
 
