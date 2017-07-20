@@ -20,6 +20,16 @@
 
    这里 origin 是 < server > 的别名，取什么名字都可以，你也可以在 push 时将 < server > 替换为 origin。但为了以后 push 方便，我们第一次一般都会先 remote add
 
-   6.
+   6.不追踪的文件
+   .gitignore文件
+
+   # 忽略的文件
+   *.class
+
+   #忽略的目录
+    /src/
+
+   7.
+
 
     ```
