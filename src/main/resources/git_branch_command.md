@@ -6,7 +6,7 @@ git checkout -b chen
 git add .
 git commit -m  // 在本地的chen分支
 git push origin chen:chenwj  // 本地名字：远程名字, 会在远端创建一个名字叫 chenwj的分支
-
+git branch -r -d origin/dev2(另一种方式)
 
 
 # 合并到 master
