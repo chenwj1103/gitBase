@@ -106,8 +106,14 @@
        2)rebase
        git checkout feature
        git rebase master
-       
 
+       同步两个 master 分支的唯一办法是把它们 merge 到一起，导致一个额外的合并提交和两堆包含同样更改的提交。不用说，这会让人非常困惑。
+       所以，在你运行 git rebase 之前，一定要问问你自己「有没有别人正在这个分支上工作？」
+
+       # 小心使用这个命令！
+       git push --force
+       
+    24. 
 
 
 
