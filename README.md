@@ -1,4 +1,4 @@
-# 基本命令eeeeeeeeeeeeeeeeee 测试
+# 基本命令
     ```
    1.git clone url
     克隆代码
